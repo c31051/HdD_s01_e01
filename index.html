@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Razas de perros</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>HdD</h1>
@@ -23,9 +24,19 @@
         y el tipo de vínculo que se busca. Un buen ajuste entre persona y perro hace más fácil
         la convivencia días a días.
     </p>
+
+    <div class="years-calculator">
+        <h3>Calcular Años</h3>
+        <input type="number" id="yearsInput" placeholder="Ingresa tu cantidad de años" min="0" step="0.1">
+        <button type="button" onclick="calculateYears()">Calcular</button>
+        <div id="result"></div>
+    </div>
+
+    <form action="https://es.wikipedia.org/wiki/Canis_familiaris" method="get" target="_blank">
     <form action="https://es.wikipedia.org/wiki/Canis_familiaris" method="get" target="_blank">
         <button type="submit">Más sobre perros en Wikipedia</button>
     </form>
 
+    <script src="script.js"></script>
 </body>
 </html>

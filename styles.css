@@ -1,0 +1,64 @@
+/* Estilos para el formulario de cálculo de años */
+.years-calculator {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    max-width: 400px;
+}
+
+.years-calculator h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.years-calculator input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.years-calculator input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.years-calculator button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.years-calculator button:hover {
+    background-color: #45a049;
+}
+
+.years-calculator button:active {
+    background-color: #3d8b40;
+}
+
+#result {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-left: 4px solid #4CAF50;
+    color: #333;
+    display: none;
+    border-radius: 4px;
+}
+
+#result.show {
+    display: block;
+}
+
