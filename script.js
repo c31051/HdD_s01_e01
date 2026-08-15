@@ -18,8 +18,9 @@ function calculateYears() {
         return;
     }
 
-    // Mostrar el resultado
-    resultDiv.innerHTML = `<strong>✓ Tienes ${years} ${years === 1 ? 'año' : 'años'}</strong>`;
+    // Multiplicar años por 7 y mostrar el resultado
+    const yearsMultiplied = years * 7;
+    resultDiv.innerHTML = `<strong>✓ Tienes ${years} ${years === 1 ? 'año' : 'años'} = ${yearsMultiplied} en múltiplos de 7</strong>`;
     resultDiv.classList.add('show');
 }
 
